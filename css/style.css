@@ -1,0 +1,454 @@
+/**********************************
+      C O M P O N E N T E S
+***********************************/
+html, body
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.u-inlineblock
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/***************************
+				H E A D E R
+****************************/
+.header
+{
+	width: 100%;
+	height: 70px;
+}
+.header-center
+{
+	width: 100px;
+  height: 47px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 19px;
+}
+
+.header-circle
+{
+	width: 35px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: top;
+  background: #133b46 url(../img/iconos/facebook.png)no-repeat center;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.twitter
+{
+	background: #133b46 url(../img/iconos/twitter.png)no-repeat center;
+}
+
+.header-circle:hover
+{
+	background: #414141 url(../img/iconos/facebook.png)no-repeat center;
+}
+
+.twitter:hover
+{
+	background: #414141 url(../img/iconos/twitter.png)no-repeat center;
+}
+/***************************
+		 	P O R T A D A
+****************************/
+.portada
+{
+  width: 100%;
+  height: 600px;
+  background: url(../img/bg_portada.png) no-repeat;
+  background-size: cover;
+  background-position-y: -102px;
+}
+
+.portada-size
+{
+  width: 50%;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 65px;
+  display: inline-block;
+}
+
+.portada-logo
+{
+  width: 100%;
+  height: 140px;
+  margin-bottom: 40px;
+}
+
+.logo img
+{
+  height: 148px;
+}
+
+.portada-info
+{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.portada-info p
+{
+  font: 25px 'camingocodebold';
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.portada-registro
+{
+  width: 100%;
+  height: auto;
+}
+
+.btn-registro
+{
+  width: 28%;
+  height: 50px;
+  background: #133b46;
+  border-radius: 10px;
+  border: none;
+  display: inline-block;
+}
+
+.btn-registro p
+{
+  font: 26px 'camingocodebold';
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.btn-contacto
+{
+  width: 28%;
+  height: 50px;
+  background: #133b46;
+  border-radius: 10px;
+  border: none;
+  display: inline-block;
+}
+
+.btn-contacto p
+{
+  font: 26px 'camingocodebold';
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+/***************************
+				A G E N D A
+****************************/
+.agenda
+{
+  width: 100%;
+  height: 580px;
+}
+
+.agenda-container
+{
+	width: 80%;
+	height: 500px;
+	margin-left: 120px;
+  margin-top: 30px;
+	display: inline-block;
+}
+
+.agenda-container h1
+{
+	font: 40px 'camingocodebold';
+  color: #414141;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-bottom: 10px;
+}
+
+.agenda-info
+{
+	width: 100%;
+	height: 365px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.agenda-info h2
+{
+	font: 30px 'camingocodebold';
+  color: #133b46;
+	margin-bottom: 0px;
+}
+
+.agenda-info p
+{
+	font: 25px 'camingocoderegular';
+  color: #414141;
+	margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/***************************
+						F A Q
+****************************/
+.faq
+{
+	width: 100%;
+	height: 550px;
+	background: url(../img/bg_faq.png) no-repeat;
+}
+
+.faq-container
+{
+	width: 90%;
+	height: 500px;
+	margin-left: 120px;
+  margin-top: 30px;
+	display: inline-block;
+}
+
+.faq h1
+{
+	font: 40px 'camingocodebold';
+  color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.faq-info
+{
+	width: 100%;
+	height: 400px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.faq-preguntas
+{
+	width: 90%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.faq-preguntas h3
+{
+	font: 20px 'camingocodebold';
+  color: #fff;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.faq-preguntas p
+{
+	font: 13px 'camingocoderegular';
+  color: #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/***************************
+			N O S O T R O S
+****************************/
+.nosotros
+{
+	width: 100%;
+	height: 400px;
+	background: #133b46;
+	display: inline-block;
+}
+
+.nosotros-container
+{
+	width: 90%;
+  height: 350px;
+	margin: auto;
+  margin-top: 30px;
+}
+
+.nosotros-container h1
+{
+	font: 40px 'camingocodebold';
+  color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.nosotros-team
+{
+	width: 100%;
+	height: 250px;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.nosotros-info img
+{
+	height: 205px;
+	border-radius: 50%;
+	margin-left: 55px;
+}
+
+.nosotros-info h3
+{
+	font: 20px 'camingocoderegular';
+  color: #fff;
+	letter-spacing: 2px;
+	margin-top: 7px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/***************************
+			O R G A N I Z A
+****************************/
+.organizadores
+{
+	width: 100%;
+	height: 325px;
+}
+
+.organiza-container
+{
+	width: 90%;
+  height: 268px;
+  margin-top: 30px;
+	display: inline-block;
+  margin-left: 70px;
+}
+
+.organiza-container h1
+{
+	font: 40px 'camingocodebold';
+  color: #414141;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.organiza-team
+{
+	width: 100%;
+	height: 185px;
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.organiza-team img
+{
+	height: 100px;
+  margin-left: 140px;
+}
+
+.organiza-team h3
+{
+	font: 16px 'camingocoderegular';
+  color: #133b46;
+	letter-spacing: 2px;
+	margin-top: 7px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/***************************
+			S P O N S O R S
+****************************/
+.sponsors
+{
+	width: 100%;
+	height: 325px;
+}
+/***************************
+		U B I C A C I O N
+****************************/
+.ubicacion
+{
+	width: 100%;
+	height: 300px;
+	background: #133b46;
+}
+
+.ubicacion-container
+{
+	width: 90%;
+  height: 250px;
+  margin-top: 30px;
+	display: inline-block;
+  margin-left: 70px;
+}
+
+.ubicacion h1
+{
+	font: 40px 'camingocodebold';
+  color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.ubicacion-center
+{
+	width: 100%;
+	height: 170px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.ubicacion-center h3
+{
+	font: 22px 'camingocoderegular';
+  color: #fff;
+	letter-spacing: 2px;
+	margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.ubicacion-center p
+{
+	font: 16px 'camingocoderegular';
+  color: #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/***************************
+			F O O T E R
+****************************/
+.footer
+{
+	width: 100%;
+	height: 95px;
+}
+
+.footer-center
+{
+	width: 300px;
+	height: 90px;
+	margin: auto;
+}
+.footer p
+{
+	font: 16px 'camingocoderegular';
+  color: #133b46;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
